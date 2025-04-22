@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yummy-Yummy Chicken Nuggets</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffaf2;
+      color: #333;
+    }
+    header {
+      background-color: #ffcc00;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-family: 'Fredoka One', cursive;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0 0;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .features, .testimoni, .promo {
+      margin-bottom: 2rem;
+    }
+    .features ul {
+      list-style: none;
+      padding: 0;
+    }
+    .features li {
+      padding: 0.5rem 0;
+    }
+    .promo {
+      background-color: #ffe680;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta a {
+      background-color: #ff9900;
+      color: white;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.2rem;
+    }
+    .testimoni blockquote {
+      font-style: italic;
+      background-color: #fff3cd;
+      padding: 1rem;
+      border-left: 4px solid #ffa500;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🐔 Yummy-Yummy Chicken Nuggets 🍗</h1>
+    <p>Renyah di luar, lembut di dalam – Siap jadi favorit keluarga!</p>
+  </header>
+
+  <section class="features">
+    <h2>Kenapa Yummy-Yummy?</h2>
+    <ul>
+      <li>✅ 100% Daging Ayam Asli – tanpa bahan pengawet & MSG</li>
+      <li>✅ Super Renyah & Gurih – nikmat di setiap gigitan</li>
+      <li>✅ Mudah & Cepat Dimasak – cocok untuk segala momen</li>
+    </ul>
+  </section>
+
+  <section class="testimoni">
+    <h2>Testimoni Pelanggan</h2>
+    <blockquote>
+      “Anak-anak saya suka banget! Nggak pernah cukup satu bungkus!”<br />
+      — Ibu Rina, Jakarta
+    </blockquote>
+  </section>
+
+  <section class="promo">
+    <h2>🎉 Promo Terbatas!</h2>
+    <p><strong>Beli 2 Gratis 1</strong> khusus bulan ini!<br />📦 Gratis ongkir ke seluruh Indonesia!</p>
+  </section>
+
+  <div class="cta">
+    <a href="#">👉 Pesan Sekarang</a>
+  </div>
+</body>
+</html>
